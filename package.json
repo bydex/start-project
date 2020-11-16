@@ -24,7 +24,8 @@
         "lint:scripts": "eslint --color ./src/blocks",
         "lint:scripts --fix": "eslint --fix --color ./src/blocks",
         "bem-c": "bem create $* -l src/blocks/components",
-        "bem-m": "bem create $* -l src/blocks/modules"
+        "bem-m": "bem create $* -l src/blocks/modules",
+        "bem-p": "bem create $* -l src/blocks/pages"
     },
     "devDependencies": {
         "@babel/core": "^7.4.3",
